@@ -53,8 +53,8 @@
                               </div>
                               <div class="header-info-right">
                                   <ul>    
-                                      <li><a href="#"><i class="ti-user"></i>Login</a></li>
-                                      <li><a href="#"><i class="ti-lock"></i>Register</a></li>
+                                      <li><a href="#"><i class="ti-user"></i>Đăng nhập</a></li>
+                                      <li><a href="#"><i class="ti-lock"></i>Đăng ký</a></li>
                                   </ul>
                               </div>
                           </div>

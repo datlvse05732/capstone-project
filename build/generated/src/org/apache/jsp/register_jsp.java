@@ -65,6 +65,7 @@ public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            <link rel=\"stylesheet\" href=\"assets/css/slick.css\">\n");
       out.write("            <link rel=\"stylesheet\" href=\"assets/css/nice-select.css\">\n");
       out.write("            <link rel=\"stylesheet\" href=\"assets/css/style.css\">\n");
+      out.write("             <link rel=\"stylesheet\" href=\"assets/css/login.css\">\n");
       out.write("            <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\" type=\"text/javascript\"></script>\n");
       out.write("            <script type=\"text/javascript\">\n");
       out.write("                $(document).ready(function () {\n");
@@ -107,7 +108,7 @@ public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        ");
       org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "header.jsp", out, false);
       out.write("\n");
-      out.write("            <form action=\"\" method=\"POST\">\n");
+      out.write("        <form class=\"form-signin\"action=\"\" method=\"POST\">\n");
       out.write("\n");
       out.write("                <div class=\"container\">\n");
       out.write("                    <h2 class=\"account-in text-center\">Đăng ký</h2>\n");
