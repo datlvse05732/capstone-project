@@ -1,0 +1,14 @@
+SMAP
+bmi_005fcaculate_jsp.java
+JSP
+*S JSP
+*F
++ 0 bmi_caculate.jsp
+bmi_caculate.jsp
+*L
+5,27:44
+32:71,3
+33,27:74
+60:101,3
+61,35:104
+*E
