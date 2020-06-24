@@ -92,8 +92,8 @@ public final class header_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                              </div>\n");
       out.write("                              <div class=\"header-info-right\">\n");
       out.write("                                  <ul>    \n");
-      out.write("                                      <li><a href=\"#\"><i class=\"ti-user\"></i>Login</a></li>\n");
-      out.write("                                      <li><a href=\"#\"><i class=\"ti-lock\"></i>Register</a></li>\n");
+      out.write("                                      <li><a href=\"#\"><i class=\"ti-user\"></i>Đăng nhập</a></li>\n");
+      out.write("                                      <li><a href=\"#\"><i class=\"ti-lock\"></i>Đăng ký</a></li>\n");
       out.write("                                  </ul>\n");
       out.write("                              </div>\n");
       out.write("                          </div>\n");
@@ -103,7 +103,7 @@ public final class header_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("              <div class=\"header-bottom header-sticky\">\n");
       out.write("                  <!-- Logo -->\n");
       out.write("                  <div class=\"logo d-none d-lg-block\">\n");
-      out.write("                      <a href=\"index.html\"><img src=\"assets/img/logo/logo.png\" alt=\"\"></a>\n");
+      out.write("                      <a href=\"index.html\"><img src=\"assets/img/logo/logo_1.png\" alt=\"\"></a>\n");
       out.write("                  </div>\n");
       out.write("                  <div class=\"container\">\n");
       out.write("                      <div class=\"menu-wrapper\">\n");
@@ -116,7 +116,13 @@ public final class header_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                              <nav>\n");
       out.write("                                  <ul id=\"navigation\">                                                                                          \n");
       out.write("                                      <li><a href=\"index.html\">Trang chủ</a></li>\n");
-      out.write("                                      <li><a href=\"about.html\">Tin tức</a></li>\n");
+      out.write("                                      <li><a href=\"about.html\">Tin tức</a>\n");
+      out.write("                                      <ul class=\"submenu\">\n");
+      out.write("                                              <li><a href=\"blog.html\">cate1</a></li>\n");
+      out.write("                                              <li><a href=\"blog_details.html\">cate 2</a></li>\n");
+      out.write("                                              <li><a href=\"elements.html\">cate 3</a></li>\n");
+      out.write("                                          </ul>\n");
+      out.write("                                      </li>\n");
       out.write("                                     \n");
       out.write("                                      \n");
       out.write("                                      <li><a href=\"blog.html\">Tính chỉ số</a>\n");

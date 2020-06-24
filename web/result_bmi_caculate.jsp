@@ -10,7 +10,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title> Restaurant |    <title> Education | Template </title>
+        <title> Tính BMI </title>
             <meta name="description" content="">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
@@ -37,40 +37,40 @@
                             <div class="row justify-content-sm-center equal-height-columns">
 
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xl-12">
-                                    
-                                        <div class="equal-height-columns">
-                                            <div class="jumbotron">
-                                                <div >
-                                                    <h2 class="account-in text-center">Tính BMI</h2>
+
+                                    <div class="equal-height-columns">
+                                        <div class="jumbotron">
+                                            <div >
+                                                <h2 class="account-in text-center">Tính BMI</h2>
+                                            </div>
+                                            <div class="form-group">
+                                                <span>Chiều cao</span>
+                                                <input class="form-control" placeholder="CM" type="text"  name="height">
+                                            </div> 	
+                                            <div class="form-group "> 
+                                                <span class="word">Cân nặng</span>
+                                                <input type="password" placeholder="KG" class="form-control" name="weight">
+                                            </div>
+                                            <div class="form-group"> 
+                                                <span class="word form-check-inline">Giới tính</span>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                    <label class="form-check-label" for="inlineRadio1"  >Nam</label>
                                                 </div>
-                                                <div class="form-group">
-                                                    <span>Chiều cao</span>
-                                                    <input class="form-control" placeholder="CM" type="text"  name="height">
-                                                </div> 	
-                                                <div class="form-group "> 
-                                                    <span class="word">Cân nặng</span>
-                                                    <input type="password" placeholder="KG" class="form-control" name="weight">
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                    <label class="form-check-label" for="inlineRadio2">Nữ</label>
                                                 </div>
-                                                <div class="form-group"> 
-                                                    <span class="word form-check-inline">Giới tính</span>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                                        <label class="form-check-label" for="inlineRadio1"  >Nam</label>
-                                                    </div>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                                        <label class="form-check-label" for="inlineRadio2">Nữ</label>
-                                                    </div>
-                                                </div>
-                                                <div class="text-center">
-                                                    <button type="submit" class="btn btn-primary btn-block ">Tính BMI</button>
-                                                </div>
-                                       
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-primary btn-block ">Tính BMI</button>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
 
-                                <
+
                             <%-- bmi result--%>          
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xl-12">
 
@@ -90,6 +90,7 @@
                             </div>
                         </div>
                     </div>
+                    <%--end bmi result--%>
                 </form>
 
 

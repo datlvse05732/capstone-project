@@ -71,23 +71,23 @@
             <form class="form-signin"action="" method="POST">
 
                 <div class="container">
-                    <h2 class="account-in text-center">Đăng ký</h2>
+                    <h2 class="account-in text-center">Đổi mật khẩu</h2>
 
 
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xl-12">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xl-12">
                             <div class="jumbotron">
-
-                                <div class="form-group">
-                                    <span>Tài khoản *</span>
-                                    <input class="form-control" type="text"  name="email" id="email">
-                                </div> 	
                                 <div class="form-group"> 
-                                    <span class="word">Mật khẩu *</span>
+                                    <span class="word">Mật khẩu cũ</span>
+                                    <input type="password" class="form-control" name="oldPass" id="oldPassword" >
+                                </div>	
+
+                                <div class="form-group"> 
+                                    <span class="word">Mật khẩu mới</span>
                                     <input type="password" class="form-control" name="pass" id="password" onkeyup="checkPass(); return false">
                                 </div>	
                                 <div class="form-group"> 
-                                    <span class="word">Nhập lại mật khẩu *</span>
+                                    <span class="word">Nhập lại mật khẩu mới*</span>
                                     <input type="password" class="form-control" name="repass" id="repassword" onkeyup="checkPass(); return false;">
                                 </div>	
                                 <div class="text-center">

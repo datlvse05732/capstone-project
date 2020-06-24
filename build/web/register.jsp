@@ -16,6 +16,7 @@
             <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
             <!-- CSS here -->
+            <link rel="stylesheet" href="assets/css/userProfile.css">  
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
             <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
             <link rel="stylesheet" href="assets/css/slicknav.css">
@@ -26,7 +27,7 @@
             <link rel="stylesheet" href="assets/css/slick.css">
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
-             <link rel="stylesheet" href="assets/css/login.css">
+            <link rel="stylesheet" href="assets/css/login.css">
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
             <script type="text/javascript">
                 $(document).ready(function () {
@@ -67,39 +68,40 @@
     </head>
     <body>
         <jsp:include page="header.jsp"></jsp:include>
-        <form class="form-signin"action="" method="POST">
+            <form class="form-signin"action="" method="POST">
 
                 <div class="container">
                     <h2 class="account-in text-center">Đăng ký</h2>
 
-                    <div class="accordion">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xl-12">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xl-12">
-                                <div class="jumbotron">
 
-                                    <div class="form-group">
-                                        <span>Tài khoản *</span>
-                                        <input class="form-control" type="text"  name="email" id="email">
-                                    </div> 	
-                                    <div class="form-group"> 
-                                        <span class="word">Mật khẩu *</span>
-                                        <input type="password" class="form-control" name="pass" id="password" onkeyup="checkPass(); return false">
-                                    </div>	
-                                    <div class="form-group"> 
-                                        <span class="word">Nhập lại mật khẩu *</span>
-                                        <input type="password" class="form-control" name="repass" id="repassword" onkeyup="checkPass(); return false;">
-                                    </div>	
-                                    <div class="text-center">
-                                        <button type="submit" class="btn btn-primary  ">Đăng ký</button>
-                                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xl-12">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xl-12">
+                            <div class="jumbotron">
+
+                                <div class="form-group">
+                                    <span>Tài khoản *</span>
+                                    <input class="form-control" type="text"  name="email" id="email">
+                                </div> 	
+                                <div class="form-group"> 
+                                    <span class="word">Mật khẩu *</span>
+                                    <input type="password" class="form-control" name="pass" id="password" onkeyup="checkPass(); return false">
+                                </div>	
+                                <div class="form-group"> 
+                                    <span class="word">Nhập lại mật khẩu *</span>
+                                    <input type="password" class="form-control" name="repass" id="repassword" onkeyup="checkPass(); return false;">
+                                </div>	
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary  ">Đăng ký</button>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </form>
+            <br/>
         <jsp:include page="footer.jsp"></jsp:include>
-
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
         <!-- Jquery, Popper, Bootstrap -->
         <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
