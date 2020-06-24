@@ -27,51 +27,72 @@
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
             <link rel="stylesheet" href="assets/css/login.css">
+            <link rel="stylesheet" href="assets/css/BMI.css">
             </head>
             <body>
                 <jsp:include page="header.jsp"></jsp:include>
                     <form class="form-signin"action="" method="POST">
 
                         <div class="container">
-                            <h2 class="account-in text-center">Tính BMI</h2>
+                            <div class="row justify-content-sm-center equal-height-columns">
 
-                            <div class="accordion">
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xl-12">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xl-12">
-                                        <div class="jumbotron">
-
-                                            <div class="form-group">
-                                                <span>Chiều cao</span>
-                                                <input class="form-control" placeholder="CM" type="text"  name="height">
-                                            </div> 	
-                                            <div class="form-group "> 
-                                                <span class="word">Cân nặng</span>
-                                                <input type="password" placeholder="KG" class="form-control" name="weight">
-                                            </div>
-                                            <div class="form-group"> 
-                                                <span class="word form-check-inline">Giới tính</span>
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                                    <label class="form-check-label" for="inlineRadio1"  >Nam</label>
+                                    
+                                        <div class="equal-height-columns">
+                                            <div class="jumbotron">
+                                                <div >
+                                                    <h2 class="account-in text-center">Tính BMI</h2>
                                                 </div>
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                                    <label class="form-check-label" for="inlineRadio2">Nữ</label>
+                                                <div class="form-group">
+                                                    <span>Chiều cao</span>
+                                                    <input class="form-control" placeholder="CM" type="text"  name="height">
+                                                </div> 	
+                                                <div class="form-group "> 
+                                                    <span class="word">Cân nặng</span>
+                                                    <input type="password" placeholder="KG" class="form-control" name="weight">
                                                 </div>
-                                                
-
-                                            </div>
-
-
-                                            <div class="text-center">
-                                                <button type="submit" class="btn btn-primary btn-block ">Tính BMI</button>
-                                            </div>
+                                                <div class="form-group"> 
+                                                    <span class="word form-check-inline">Giới tính</span>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                        <label class="form-check-label" for="inlineRadio1"  >Nam</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                        <label class="form-check-label" for="inlineRadio2">Nữ</label>
+                                                    </div>
+                                                </div>
+                                                <div class="text-center">
+                                                    <button type="submit" class="btn btn-primary btn-block ">Tính BMI</button>
+                                                </div>
+                                       
                                         </div>
                                     </div>
                                 </div>
+
+                                <
+                            <%-- bmi result--%>          
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xl-12">
+
+                                <div class="equal-height-columns">
+                                    <div class="jumbotron ">
+                                        <div >
+                                            <h2 class="account-in text-center">KET QUA BMI</h2>
+                                        </div>
+
+
+                                        <div class="text-center">
+                                            <button type="submit" class="btn btn-primary btn-block ">Tính BMI</button>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                    </form>
+                    </div>
+                </form>
+
+
                 <jsp:include page="footer.jsp"></jsp:include>
 
                 <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>

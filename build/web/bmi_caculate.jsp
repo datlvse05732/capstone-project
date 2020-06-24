@@ -35,7 +35,7 @@
                         <div class="container">
                             <h2 class="account-in text-center">Tính BMI</h2>
 
-                            <div class="accordion">
+                            <div class="">
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xl-12">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xl-12">
                                         <div class="jumbotron">
