@@ -1,0 +1,24 @@
+SMAP
+manager_005fcategory_005fresources_jsp.java
+JSP
+*S JSP
+*F
++ 0 manager_category_resources.jsp
+admin/manager_category_resources.jsp
+*L
+7,10:44
+17:54,2
+18,5:56
+28:61
+29:62,3
+30,3:65
+33:68,3
+34,21:71
+59,2:92
+61,3:94,2
+64,8:100
+72:108,2
+73,4:110
+77:114,3
+78,6:117
+*E

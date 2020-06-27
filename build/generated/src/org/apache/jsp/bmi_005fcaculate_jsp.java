@@ -76,7 +76,7 @@ public final class bmi_005fcaculate_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("                        <div class=\"container\">\n");
       out.write("                            <h2 class=\"account-in text-center\">Tính BMI</h2>\n");
       out.write("\n");
-      out.write("                            <div class=\"accordion\">\n");
+      out.write("                            <div class=\"\">\n");
       out.write("                                <div class=\"col-lg-3 col-md-3 col-sm-3 col-xl-12\">\n");
       out.write("                                    <div class=\"col-lg-6 col-md-6 col-sm-6 col-xl-12\">\n");
       out.write("                                        <div class=\"jumbotron\">\n");
@@ -98,12 +98,8 @@ public final class bmi_005fcaculate_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("                                                <div class=\"form-check form-check-inline\">\n");
       out.write("                                                    <input class=\"form-check-input\" type=\"radio\" name=\"inlineRadioOptions\" id=\"inlineRadio2\" value=\"option2\">\n");
       out.write("                                                    <label class=\"form-check-label\" for=\"inlineRadio2\">Nữ</label>\n");
-      out.write("                                                </div>\n");
-      out.write("                                                \n");
-      out.write("\n");
+      out.write("                                                </div>                                             \n");
       out.write("                                            </div>\n");
-      out.write("\n");
-      out.write("\n");
       out.write("                                            <div class=\"text-center\">\n");
       out.write("                                                <button type=\"submit\" class=\"btn btn-primary btn-block \">Tính BMI</button>\n");
       out.write("                                            </div>\n");
