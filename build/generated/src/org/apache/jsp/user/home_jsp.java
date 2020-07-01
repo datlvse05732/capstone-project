@@ -49,7 +49,7 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <head>\n");
       out.write("        <meta charset=\"utf-8\">\n");
       out.write("        <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n");
-      out.write("        <title> Restaurant |    <title> Education | Template </title>\n");
+      out.write("        <title> Trang chủ </title>\n");
       out.write("            <meta name=\"description\" content=\"\">\n");
       out.write("            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n");
       out.write("            <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"assets/img/favicon.ico\">\n");

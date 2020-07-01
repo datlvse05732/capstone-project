@@ -8,4 +8,16 @@ and open the template in the editor.
     Author     : DATLV
 */
 
-
+.container{
+    display: table;
+    width: 100%;
+}
+.col_h {
+    display: table-cell;
+    padding: 16px;
+}
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
